@@ -1,0 +1,44 @@
+<acceptance-test-run title="Add a leather jacket to the cart" name="add_a_leather_jacket_to_the_cart" steps="7" successful="1" failures="0" errors="1" skipped="5" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="20379" timestamp="2017-09-01T15:44:14.101+01:00" session-id="34f821c0-192f-894e-97f0-ea923ae1d876" test-source="JUnit">
+  <user-story id="net.thucydides.showcase.cucumber.junit.shopping_cart.AddStuffToTheShoppingCartTest" name="Add stuff to the shopping cart test" path="net.thucydides.showcase.cucumber.junit.shopping_cart"/>
+  <tags>
+    <tag name="Shopping cart" type="capability"/>
+    <tag name="Shopping cart/Add stuff to the shopping cart test" type="feature"/>
+    <tag name="Add stuff to the shopping cart test" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="15273">
+    <screenshots>
+      <screenshot image="3e61a0ee801a622489250d8eaae1b4d3.png"/>
+    </screenshots>
+    <description>Opens home page</description>
+  </test-step>
+  <test-step result="ERROR" duration="4487">
+    <screenshots>
+      <screenshot image="0019edd8c6fa4a9f023a06b1ee240cf4.png" source="pagesource5987672624073403254.html.txt"/>
+    </screenshots>
+    <description>Searches by keyword: leather jacket</description>
+    <error>org.openqa.selenium.TimeoutException: Timed out after 1 seconds waiting for visibility of element located by By.xpath: //div[@id=&apos;search-suggestions&apos;]//div[@class=&apos;as-suggestion&apos;]//*[contains(.,&apos;find shop names containing&apos;)]
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;SampathMahavithanas-MacBook-Pro.local&apos;, ip: &apos;192.168.1.3&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: net.thucydides.core.webdriver.WebDriverFacade</error>
+    <exception>org.openqa.selenium.TimeoutException:Timed out after 1 seconds waiting for visibility of element located by By.xpath: //div[@id=&apos;search-suggestions&apos;]//div[@class=&apos;as-suggestion&apos;]//*[contains(.,&apos;find shop names containing&apos;)]
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;SampathMahavithanas-MacBook-Pro.local&apos;, ip: &apos;192.168.1.3&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: net.thucydides.core.webdriver.WebDriverFacade
+[net.thucydides.showcase.cucumber.pages.HomePage.enterSearchTerms(HomePage.java:26), net.thucydides.showcase.cucumber.steps.serenity.BuyerSteps.searches_by_keyword(BuyerSteps.java:28), net.thucydides.showcase.cucumber.junit.shopping_cart.AddStuffToTheShoppingCartTest.add_a_leather_jacket_to_the_cart(AddStuffToTheShoppingCartTest.java:23)]</exception>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>Filters by local region</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>Selects listing: 2</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>Adds current listing to cart</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>Should see item in cart: &lt;null&gt;</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>Should see total including shipping for: &lt;null&gt;</description>
+  </test-step>
+</acceptance-test-run>
